@@ -1,0 +1,95 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('images/background.png');
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+header {
+    vertical-align: middle;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+header img {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.topo {
+    max-width: 980px;
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 10px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+.destaque {
+    padding: 10px;
+    max-width: 980px;
+    border: 1px solid #252525;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.destaque li {
+    display: flex;
+}
+
+hr {
+    border: 1px solid #252525;
+}
+
+.description1 {
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.video1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.imagesec {
+    gap: 10px;
+}
+
+.imagesec img {
+    max-width: 295px;
+    border: 1px solid #252525;
+    padding: 5px;
+}
+
+.imagesec img:hover {
+    opacity: 0.5;
+    border: 1px solid #00ff00;
+}
+
+.pe {
+    max-width: 1000px;
+    background-color: rgba(0, 0, 255, 0.5);
+    border: 1px solid #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pe img {
+    width: 100px;
+}
+
+.popup {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+@media (max-width: 768px) {
+    .destaque li {
+        display: block;
+    }
+}
